@@ -39,13 +39,13 @@
 
 body
 {
-    background-color: #fffbfd;
+  background-color: #000000;
 }
 
 h1
 {
     font-family: 'Dancing Script', cursive;
-    font-size: 5rem;
+    font-size: 4.5rem !important;
     text-align: center;
     color: #ff7300;
     background-color: #ffe8ea;
@@ -61,4 +61,20 @@ img
 {
     display: block;
     margin: auto;
+}
+
+.card-columns
+{
+  background-color: #000000;
+}
+
+.menu
+{
+  display: flex;
+}
+
+h2
+{
+  margin-right: 40px;
+  font-size: 200px;
 }

@@ -10,11 +10,16 @@ function App() {
     
     <div className="App">
       <h1>Dulce Bocado</h1>
+      <div class="menu">
+        <h2>Inicio</h2>
+        <h2>Sobre nosotros</h2>
+        <h2>Productos</h2>
+      </div>
       <header className="App-header">
         <section class="header">
 
         <div class="card-columns">
-        <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" src={alfajores} />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
