@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter,Route} from "react-router-dom";
 import './css/fonts.css';
-import alfajores from './img/alfajores.jpeg'
+import producto from './img/1.jpeg';
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 
@@ -20,7 +21,7 @@ function App() {
 
         <div class="card-columns">
           <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={alfajores} />
+            <Card.Img variant="top" src={producto} />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
@@ -30,7 +31,7 @@ function App() {
             </Card.Body>
           </Card>
           <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={alfajores} />
+            <Card.Img variant="top" src={producto} />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
@@ -40,7 +41,7 @@ function App() {
             </Card.Body>
           </Card>
           <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={alfajores} />
+            <Card.Img variant="top" src={producto} />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
@@ -50,7 +51,7 @@ function App() {
             </Card.Body>
           </Card>
           <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={alfajores} />
+            <Card.Img variant="top" src={producto} />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
@@ -60,7 +61,7 @@ function App() {
             </Card.Body>
           </Card>
           <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={alfajores} />
+            <Card.Img variant="top" src={producto} />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
@@ -70,7 +71,7 @@ function App() {
             </Card.Body>
           </Card>
           <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={alfajores} />
+            <Card.Img variant="top" src={producto} />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
@@ -80,7 +81,7 @@ function App() {
             </Card.Body>
           </Card>
           <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={alfajores} />
+            <Card.Img variant="top" src={producto} />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
@@ -90,7 +91,7 @@ function App() {
             </Card.Body>
           </Card>
           <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={alfajores} />
+            <Card.Img variant="top" src={producto} />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
@@ -100,7 +101,7 @@ function App() {
             </Card.Body>
           </Card>
           <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={alfajores} />
+            <Card.Img variant="top" src={producto} />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
@@ -110,7 +111,7 @@ function App() {
             </Card.Body>
           </Card>
           <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={alfajores} />
+            <Card.Img variant="top" src={producto} />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
@@ -120,7 +121,7 @@ function App() {
             </Card.Body>
           </Card>
           <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={alfajores} />
+            <Card.Img variant="top" src={producto} />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
