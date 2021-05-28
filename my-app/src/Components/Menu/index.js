@@ -10,12 +10,9 @@ function Menu()
             <h1>Dulce Bocado</h1>
             <div class="menu">
                 <Option path="/" label="Home"/>
-                <Option path="/detail" label="Detalle de producto"/>
                 <Option path="/signup" label="Registro"/>
                 <Option path="/login" label="Ingresar"/>
             </div>
-
-            
         </div>
     );
 }
