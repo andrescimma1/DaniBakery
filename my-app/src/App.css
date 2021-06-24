@@ -68,11 +68,6 @@ h2
   color: #00c30a;
 }
 
-.navbarBgColor
-{
-  background-color: #00c30a;
-}
-
 .video-container
 {
   height: 100vh;
@@ -98,5 +93,22 @@ h2
   color: rgb(255, 132, 17);
   background-color: transparent;
   font-size: 100px !important;
-  
+}
+
+.bg-navbar
+{
+  background-color: rgb(253, 132, 192);
+}
+
+.navbar
+{
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+}
+
+.scrolling
+{
+  background-color: rgb(255, 97, 176);
+  transition: all 0.5 ease;
 }

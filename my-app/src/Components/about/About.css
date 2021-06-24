@@ -1,0 +1,43 @@
+.about-container
+{
+    display: flex;
+    background-color: white;
+    color: black;
+    height: 70vh;
+    padding: 100px 0;
+}
+
+.about-desc
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 0 100px;
+}
+
+.about-desc > h2 
+{
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+
+.about-desc > p
+{
+    line-height: 1.5;
+    font-size: 22px;
+}
+
+.about-img
+{ 
+    height: 60vh;
+    display: flex;
+    align-self: center;
+    overflow: hidden;
+}
+
+img
+{
+    width: 100%;
+    height: 100%;
+}
