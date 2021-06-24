@@ -4,6 +4,7 @@ import box from '../img/4.jpeg';
 import river from '../img/9.jpeg';
 import budin from '../img/18.jpeg';
 import matilda from '../img/12.jpeg';
+import boxPadre from '../media/BoxDiaDelPadre.mp4'
 
 class Home extends Component
 {
@@ -50,13 +51,20 @@ class Home extends Component
     render()
     {
         return(
+            <>
+                <div class="video-container">
+                    <video class="video" src={boxPadre} autoPlay loop muted />
+                    <h1>Dulce Bocado</h1>
+                </div>
             <header className="App-header">
                 <section class="header">
                     <div class="card-columns">
                         {this.state.products.map(product=><Product data={product}/>)}
                     </div>
                 </section>
+                
             </header>
+            </>
         );
     }
 }

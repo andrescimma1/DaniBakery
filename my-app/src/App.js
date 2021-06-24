@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter,Route} from "react-router-dom";
 import Menu from './Components/Menu/index';
@@ -12,11 +11,9 @@ function App() {
   return (
     <BrowserRouter>
       <Menu/>
-      <Container>
         <Route path="/" component={Home} exact />
         <Route path="/signup" component={SignUp} exact />
         <Route path="/login" component={Login} exact />
-      </Container>
     </BrowserRouter>
   );
 }
