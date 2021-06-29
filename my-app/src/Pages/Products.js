@@ -50,14 +50,11 @@ class Products extends Component
     render()
     {
         return(
-            <header className="App-header">
-                <section class="header">
-                    <div class="card-columns">
-                        {this.state.products.map(product=><Product data={product}/>)}
-                    </div>
-                </section>
-                
-            </header>
+            <div class="card-container">
+                <div class="card-columns">
+                    {this.state.products.map(product=><Product data={product}/>)}
+                </div>
+            </div>
         );
     }
 }

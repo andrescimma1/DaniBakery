@@ -1,4 +1,4 @@
-import React,{Component, useState} from "react";
+import React, {useState} from "react";
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Alert from 'react-bootstrap/Alert';
@@ -19,7 +19,7 @@ function Product(props)
     }
 
     return(
-        <Card style={{ width: '18rem' }}>
+        <Card>
             <Card.Img variant="top" src={props.data.src} />
             <Card.Body>
                 <Card.Text>
